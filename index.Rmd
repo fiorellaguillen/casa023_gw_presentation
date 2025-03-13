@@ -41,6 +41,10 @@ output:
 | 2  | Malaria Cases          | Malaria Atlas Project | Points  | 2015 |
 | 3  | Administration Boundary | Indonesia Geospatial Agency| Polygon | 2022 |
 
+<div style="text-align: center;">
+  <img src="Layout_Vector.png" width="60%">
+</div>
+
 ---
 
 # Methodology
