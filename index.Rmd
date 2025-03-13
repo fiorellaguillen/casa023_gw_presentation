@@ -49,6 +49,78 @@ output:
 
 # Methodology
 
+##### Tools = Google Earth Engine (GEE)
+
+$$
+Malaria\ Risk\ Index = \frac{Susceptibility + Vulnerability + Capacity}{3}
+$$
+<style>
+  .tab {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+  }
+  .tab.active {
+    border-bottom: 3px solid #800080;
+    font-weight: bold;
+  }
+  .tab-content {
+    display: none;
+  }
+  .tab-content.active {
+    display: block;
+  }
+</style>
+
+<div>
+  <span class="tab active" onclick="showTab(0)">Susceptibility</span>
+  <span class="tab" onclick="showTab(1)">Vulnerability</span>
+  <span class="tab" onclick="showTab(2)">Capacity</span>
+</div>
+
+<div class="tab-content active">
+  <ul>
+  <li>Extract LST, Precipitation, NDVI, and NDWI data and filter it for summer period (April - September) and minimum cloud cover </li>
+  <li>Get the mean value of each LST, Precipitation, NDVI, and NDWI</li>
+  <li>Divide the Malaria Cases Point for training and testing data</li>
+  <li>Apply Boosted Regression Tree machine learning algorithm to get the susceptibility index</li>
+  </ul>
+</div>
+
+</div>
+<div class="tab-content">
+  <ul>
+  <li>Extract built areas from Land Cover Data and give value 1 for these areas</li>
+  <li>Extract vulnerable population by age (0-15 and >60)</li>
+  <li>Sum the vulnerable population</li>
+  <li>Apply Fuzzy Logic Model (FLM) to normalize the value of population and vulnerable population to 0-1</li>
+  <li>Apply Multi Criteria Decision Analysis (MCDA) to get the vulnerable index</li>
+  </ul>
+</div>
+  
+</div>
+<div class="tab-content">
+  <ul>
+  <li>Extract hospital location point from Open Street Map (OSM)</li>
+  <li>Calculate distance using Euclidean Distance</li>
+  <li>Apply Fuzzy Logic Model (FLM) to normalize the value of distance to 0-1</li>
+  </ul>
+</div>
+
+<script>
+  function showTab(index) {
+    document.querySelectorAll(".tab").forEach((tab, i) => {
+      tab.classList.toggle("active", i === index);
+    });
+    document.querySelectorAll(".tab-content").forEach((content, i) => {
+      content.classList.toggle("active", i === index);
+    });
+  }
+</script>
+
 ---
 
 # Sample Maps Preview
