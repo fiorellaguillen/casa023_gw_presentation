@@ -4,8 +4,8 @@
     <title>Malaria analysis</title>
     <meta charset="utf-8" />
     <meta name="author" content="Tropical threat" />
-    <meta name="date" content="2025-03-04" />
-    <script src="libs/header-attrs-2.29/header-attrs.js"></script>
+    <meta name="date" content="2025-03-13" />
+    <script src="libs/header-attrs-2.28/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
   </head>
@@ -23,12 +23,54 @@ class: center, middle, inverse, title-slide
 ### Tropical threat
 ]
 .date[
-### 2025-03-04
+### 2025-03-13
 ]
 
 ---
 
 
+# Framework
+
+![](Layout_Flowchart.png)
+
+---
+
+# Raster Data
+
+| No | Data        | Product           | Type   | Spatial Resolution | Time |
+|----|-------------|-------------------|--------|--------------------|------|
+| 1  | Elevation   | ALOS DSM          | Raster | 30 m               | 2011 |
+| 2  | LST         | MODIS             | Raster | 1000 m             | 2024 |
+| 3  | Land Cover  | ESRI              | Raster | 10 m               | 2023 |
+| 4  | NDVI        | MODIS             | Raster | 500 m              | 2024 |
+| 5  | NDWI        | MODIS             | Raster | 463.3 m            | 2023 |
+| 6  | Population  | Worldpop          | Raster | 92.77 m            | 2020 |
+| 7  | Precipitation | CHIRPS          | Raster | 5566 m             | 2024 |
+| 8  | Age         | Worldpop          | Raster | 92.77 m            | 2020 |
+
+
+---
+
+# Vector Data
+
+| No | Data                   | Product                 | Type             | Time |
+|----|------------------------|-------------------------|------------------|------|
+| 1  | Health Facility        | Open Street Map         | Vector (Points)  | 2024 |
+| 2  | Malaria Cases          | Malaria Atlas Project   | Vector (Points)  | 2015 |
+| 3  | Administration Boundary| Indonesia Geospatial Agency| Vector (Polygon)| 2018 |
+
+
+---
+
+# Methodology
+
+---
+
+# Sample Analysis Preview
+
+---
+
+# Sample Dashboard Preview
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
