@@ -86,16 +86,15 @@ Nusantara, although currently malaria-free, remains at risk for transmission due
 
 ---
 ##Why Addressing this issue?
-.pull-left[
-![](images/Forest.jpg)
 * In, 2019 the population was *194.000*, but in 2045 it is projected to be 1.91 million *[10 times higher]*
 .pull-left[
 ![](images/news.png)
 
 ---
 ##How does this scheme fit into policy?
+
 .panelset[
-.panel[.panel-name[Global Goals (SDGs)]
+.panel[.panel-name[SDGs]
 .pull-left[
 
 * Goal 3.3 : Good Health and Wellbeing
@@ -108,10 +107,9 @@ Target 11.3: By 2030, enhance inclusive and sustainable urbanization and capacit
 ![](images/Policy.jpg)
 ]
 ]
-
-.panel[.panel-name[WHO Global Technical Strategy for Malaria (2026-2030)
-]
+.panel[.panel-name[WHO Framework]
 .pull-left[
+* Global Technical Strategy for Malaria (2026-2030)
 * Pillar 1 : Ensure access to malaria prevention, diagnosis and treatment as part of universal health coverage.
 Countries should collect data across all settings, including those areas that are malaria-free but at risk of re-establishment of malaria .
 
@@ -119,15 +117,15 @@ Countries should collect data across all settings, including those areas that ar
 * Pillar 3. Transform malaria surveillance into a key intervention.
 Surveillance in areas of high & low transmission and in areas targeted for elimination
 ]
+
 .pull-right[
 ![](images/Policy.jpg)
 ]
 ]
 
-.panel[.panel-name[National Level (National Action Plan for Acceleration of Malaria Elimination 2020-2026 )
-)
-]
+.panel[.panel-name[National Level]
 .pull-left[
+(National Action Plan for Acceleration of Malaria Elimination 2020-2026)
 * Malaria elimination policies and implementation need basic research, operational support, and efficient technology development (p.53)
 
 * Planning and implementing malaria elimination activities are based on district endemicity (p.53) stratification. 
@@ -140,11 +138,9 @@ Surveillance in areas of high & low transmission and in areas targeted for elimi
 
 ]
 ]
-
-.panel[.panel-name[Provincial Level : Governor Regulation on Guidelines for Malaria Elimination )
-)
-]
+.panel[.panel-name[Provincial Level]
 .pull-left[
+* Governor Regulation on Guidelines for Malaria Elimination)
 * Suppress the endemic incidents (high and medium risk)
 * Eliminate the number of incidents 
 * Maintain free malaria status (low-none risk)
@@ -152,7 +148,9 @@ Surveillance in areas of high & low transmission and in areas targeted for elimi
 ]
 .pull-right[
 ![](images/Policy.jpg)
-
+]
+]
+]
 ---
 ## Framework
 
