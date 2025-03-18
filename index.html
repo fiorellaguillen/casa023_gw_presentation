@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="author" content="    Group: Tropical Threat" />
     <meta name="date" content="2025-03-18" />
-    <script src="libs/header-attrs-2.29/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.28/header-attrs.js"></script>
     <link href="libs/panelset-0.3.0/panelset.css" rel="stylesheet" />
     <script src="libs/panelset-0.3.0/panelset.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
@@ -179,9 +179,8 @@ Surveillance in areas of high &amp; low transmission and in areas targeted for e
 | 3  | Land Cover   | ESRI     | Annual Land Cover    | 10 m               | 2023 |
 | 4  | NDVI         | MODIS    | NDVI                 | 500 m              | 2024 |
 | 5  | NDWI         | MODIS    | NDWI                 | 463.3 m            | 2023 |
-| 6  | Population   | Worldpop | Population           | 92.77 m            | 2020 |
-| 7  | Precipitation| CHIRPS   | Precipitation        | 5566 m             | 2024 |
-| 8  | Age          | Worldpop | M_0 – M_15, M_60 – M_80, F_0 – F_15, F_60 – F_80 | 92.77 m | 2020 |
+| 6  | Precipitation| CHIRPS   | Precipitation        | 5566 m             | 2024 |
+| 7  | Age          | Worldpop | M_0 – M_15, M_60 – M_80, F_0 – F_15, F_60 – F_80 | 92.77 m | 2020 |
 
 ---
 
@@ -190,11 +189,13 @@ Surveillance in areas of high &amp; low transmission and in areas targeted for e
 | No | Data                   | Product               | Type    | Time |
 |----|------------------------|-----------------------|---------|------|
 | 1  | Health Facility        | Open Street Map       | Points  | 2024 |
-| 2  | Malaria Cases          | Malaria Atlas Project | Points  | 2015 |
-| 3  | Administration Boundary | Indonesia Geospatial Agency| Polygon | 2022 |
+| 2  | Malaria Cases          | SISMAL Indonesia      | Points  | 2024 |
+| 3  | Road Networks          | Open Street Map       | Line    | 2024 |
+| 4  | Employment             | Central Bureau of Statistics Indonesia | Polygon | 2024 |
+| 5  | Administration Boundary | Indonesia Geospatial Agency| Polygon  | 2018 |
 
 &lt;div style="text-align: center;"&gt;
-  &lt;img src="Layout_Vector.png" width="60%"&gt;
+  &lt;img src="Layout_Vector.png" width="40%"&gt;
 &lt;/div&gt;
 
 ---
@@ -206,78 +207,37 @@ Surveillance in areas of high &amp; low transmission and in areas targeted for e
 $$
 Malaria\ Risk\ Index = \frac{Susceptibility + Vulnerability + Capacity}{3}
 $$
-&lt;style&gt;
-  .tab {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 0;
-    font-size: 18px;
-    cursor: pointer;
-    border-bottom: 3px solid transparent;
-  }
-  .tab.active {
-    border-bottom: 3px solid #800080;
-    font-weight: bold;
-  }
-  .tab-content {
-    display: none;
-  }
-  .tab-content.active {
-    display: block;
-  }
-&lt;/style&gt;
 
-&lt;div&gt;
-  &lt;span class="tab active" onclick="showTab(0)"&gt;Susceptibility&lt;/span&gt;
-  &lt;span class="tab" onclick="showTab(1)"&gt;Vulnerability&lt;/span&gt;
-  &lt;span class="tab" onclick="showTab(2)"&gt;Capacity&lt;/span&gt;
-&lt;/div&gt;
+.panelset[
+.panel[.panel-name[Susceptibility]
+* Extract LST, Precipitation, NDVI, and NDWI data and filter it for summer period (April - September) and minimum cloud cover
+* Get the mean value of each LST, Precipitation, NDVI, and NDWI
+* Divide the Malaria Cases Point for training and testing data
+* Apply Boosted Regression Tree machine learning algorithm to get the susceptibility index
+]
 
-&lt;div class="tab-content active"&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Extract LST, Precipitation, NDVI, and NDWI data and filter it for summer period (April - September) and minimum cloud cover &lt;/li&gt;
-  &lt;li&gt;Get the mean value of each LST, Precipitation, NDVI, and NDWI&lt;/li&gt;
-  &lt;li&gt;Divide the Malaria Cases Point for training and testing data&lt;/li&gt;
-  &lt;li&gt;Apply Boosted Regression Tree machine learning algorithm to get the susceptibility index&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
+.panel[.panel-name[Vulnerability]
+* Extract Land Cover Data and classify it into vulnerability scores
+* Extract vulnerable population by age (0-15 and &gt;60)
+* Sum the vulnerable population
+* Classify employment data to field and inside building and gives score 1 and 0, respectively
+* Apply Fuzzy Logic Model (FLM) to normalize the value of vulnerable population to 0-1
+* Apply Multi Criteria Decision Analysis (MCDA) to get the vulnerable index
+]
 
-&lt;/div&gt;
-&lt;div class="tab-content"&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Extract built areas from Land Cover Data and give value 1 for these areas&lt;/li&gt;
-  &lt;li&gt;Extract vulnerable population by age (0-15 and &gt;60)&lt;/li&gt;
-  &lt;li&gt;Sum the vulnerable population&lt;/li&gt;
-  &lt;li&gt;Apply Fuzzy Logic Model (FLM) to normalize the value of population and vulnerable population to 0-1&lt;/li&gt;
-  &lt;li&gt;Apply Multi Criteria Decision Analysis (MCDA) to get the vulnerable index&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-  
-&lt;/div&gt;
-&lt;div class="tab-content"&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Extract hospital location point from Open Street Map (OSM)&lt;/li&gt;
-  &lt;li&gt;Calculate distance using Euclidean Distance&lt;/li&gt;
-  &lt;li&gt;Apply Fuzzy Logic Model (FLM) to normalize the value of distance to 0-1&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;script&gt;
-  function showTab(index) {
-    document.querySelectorAll(".tab").forEach((tab, i) =&gt; {
-      tab.classList.toggle("active", i === index);
-    });
-    document.querySelectorAll(".tab-content").forEach((content, i) =&gt; {
-      content.classList.toggle("active", i === index);
-    });
-  }
-&lt;/script&gt;
-
+.panel[.panel-name[Capacity]
+* Extract hospital location point and road networks from Open Street Map (OSM)
+* Calculate distance using Cost Distance Analysis
+* Apply Fuzzy Logic Model (FLM) to normalize the value of distance to 0-1
+]
+]
 ---
 
 ## Sample Maps Preview
 
-![](Layout_Map.png)
+&lt;div style="text-align: center;"&gt;
+  &lt;img src="Layout_Map.png" width="95%"&gt;
+&lt;/div&gt;
 
 ---
 
