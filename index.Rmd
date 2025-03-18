@@ -86,8 +86,11 @@ Nusantara, although currently malaria-free, remains at risk for transmission due
 
 ---
 ##Why Addressing this issue?
-
-
+.pull-left[
+![](images/Forest.jpg)
+* In, 2019 the population was *194.000*, but in 2045 it is projected to be 1.91 million *[10 times higher]*
+.pull-left[
+![](images/news.png)
 
 ---
 ##How does this scheme fit into policy?
