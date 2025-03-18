@@ -1,17 +1,62 @@
 ---
-title: "Malaria analysis"
+title: "MALARIA ANALYSIS"
 subtitle: "leveraging Remote Sensing"
-author: "Tropical threat"
+author: "<br><br><br><br>Group: Tropical Threat"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
+    css: xaringan-themer.css
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
 ---
-# Introduction
+```{css, echo=FALSE}
+.title-slide {
+  background-image: url("images/option1.jpg"); /* Change background image */
+  background-size: cover;
+  background-position: center;
+}
+
+```{css, echo=FALSE}
+.title-slide h1 {  
+  font-size: 50px;  /* Change title size */
+  line-height: 10px; /* Spacing */
+}
+
+.title-slide h2 {  
+  font-size: 30px;  /* Change subtitle size */
+  line-height: 10px;  
+}
+
+.title-slide h3 {  
+  font-size: 25px;  /* Change author size */
+  line-height: 20px;  
+}
+
+.title-slide p {  
+  font-size: 20px;  /* Change date size */
+  line-height: 10px;  
+}
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset() 
+```
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(  #we can change it to anything you prefer
+  base_color = "#7f2200",
+  header_font_google = google_font("Lato"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+
+## Introduction
 <!-- These are the main point, content and aesthetics will be enhanced -->
 
 According to WHO’s latest World Malaria Report, there were almost 263 million estimated malaria cases and 597,000 malaria deaths worldwide in 2023 - **an increase of 11 million cases compared with 2022**
@@ -29,7 +74,7 @@ Graph showing Indonesia's status (to be added)
 
 
 ---
-#Indonesia’s new capital city 
+##Indonesia’s new capital city 
 <!-- These are the main point, content and aesthetics will be enhanced -->
 
 
@@ -40,7 +85,7 @@ Nusantara, although currently malaria-free, remains at risk for transmission due
 * to be added: context about the new capital and its importance to the country
 
 ---
-# Framework
+## Framework
 
 ![](Layout_Flowchart.png)
 
@@ -49,7 +94,7 @@ Nusantara, although currently malaria-free, remains at risk for transmission due
 
 ---
 
-# Raster Data
+## Raster Data
 
 | No | Data         | Product  | Band                 | Spatial Resolution | Time |
 |----|------------- |--------- |----------------------|--------------------|------|
@@ -64,7 +109,7 @@ Nusantara, although currently malaria-free, remains at risk for transmission due
 
 ---
 
-# Vector Data
+## Vector Data
 
 | No | Data                   | Product               | Type    | Time |
 |----|------------------------|-----------------------|---------|------|
@@ -78,7 +123,7 @@ Nusantara, although currently malaria-free, remains at risk for transmission due
 
 ---
 
-# Methodology
+## Methodology
 
 ##### Tools = Google Earth Engine (GEE)
 
@@ -154,16 +199,83 @@ $$
 
 ---
 
-# Sample Maps Preview
+## Sample Maps Preview
 
 ![](Layout_Map.png)
 
 ---
 
 
-# Sample Dashboard 
+##Sample Dashboard 
 Placeholder for an interactive dashboard. 
 
 I tested flexdashboard r package but it's a bit complicated for the purpose of the demo so i'll go back to the initail idea of just using figma
 
 
+---
+##Stakeholder mapping
+
+.panelset[
+.panel[.panel-name[Government Agencies]
+.pull-left[
+
+* Regulation and alignment with national health and sustainable development policies
+
+* Definition of intervention strategies and allocation of state funding
+
+* Coordination with international organizations
+
+* Implementation of environmental and urban regulations in Nusantara
+]
+.pull-right[
+![](images/stakeholders.png)
+]
+]
+
+.panel[.panel-name[Community]
+.pull-left[
+* Active input during fieldwork regarding social practices 
+
+* Validation of epidemiological and environmental data through fieldwork
+
+* Implementation of disease monitoring and control strategies at the local level including 
+
+* Capacity building and training for healthcare professionals and policymakers
+
+* Exchange of results and research
+]
+.pull-right[
+![](images/stakeholders.png)
+]
+]
+
+.panel[.panel-name[Intermediary stakeholders]
+.pull-left[
+* Establishing international standards and guidelines for malaria monitoring
+
+* Providing technical assistance and future funding
+
+* Supporting research, advocacy, and awareness campaigns
+
+* Development of monitoring tools
+]
+.pull-right[
+![](images/stakeholders.png)
+]
+]
+
+]
+
+---
+##Project workflow
+![](images/activities.png)
+---
+##Timeline
+![](images/timeline.png)
+---
+
+##Budget
+
+<div style="text-align: center;">
+  <img src="images/budget.png" style="width: 90%;">
+</div>
