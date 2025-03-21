@@ -258,11 +258,11 @@ $$
 
 .panel[.panel-name[Vulnerability]
 * Extract Land Cover Data and classify it into vulnerability scores
-* Extract vulnerable population by age (0-15 and &gt;60)
+* Extract vulnerable population by age (child: 0-15 and elderly: &gt;60)
 * Sum the vulnerable population
 * Classify employment data to field and inside building and gives score 1 and 0, respectively
 * Apply Fuzzy Logic Model (FLM) to normalize the value of vulnerable population to 0-1
-* Apply Multi Criteria Decision Analysis (MCDA) to get the vulnerable index
+* Apply Multi Criteria Decision Analysis (MCDA) to get the vulnerability index
 ]
 
 .panel[.panel-name[Capacity]
@@ -290,6 +290,12 @@ I tested flexdashboard r package but it's a bit complicated for the purpose of t
 ---
 
 ##Limitation
+
+####1. Different time period from some data sources like elevation, land cover, NDWI, population by age, and administration boundary.
+
+####2. Malaria case points from SISMAL are based from health facilities not from where the patient got infected with malaria.
+
+####3. The capacity analysis is not considering the mitigation efforts.
 
 ---
 ##Stakeholder mapping
