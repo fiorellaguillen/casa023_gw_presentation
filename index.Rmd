@@ -198,9 +198,8 @@ According to the **WHO’s World Malaria Report 2024:**
 ---
 ## Framework
 
-![](Layout_Flowchart.png)
+![](images/Layout_Flowchart.png)
 
-<!-- Note for Jasmin: why Euclidean distance not actual street Network?-->
 
 
 ---
@@ -230,7 +229,7 @@ According to the **WHO’s World Malaria Report 2024:**
 | 5  | Administration Boundary | Indonesia Geospatial Agency| Polygon  | 2018 |
 
 <div style="text-align: center;">
-  <img src="Layout_Vector.png" width="40%">
+  <img src="images/Layout_Vector.png" width="40%">
 </div>
 
 ---
@@ -271,7 +270,7 @@ $$
 ## Sample Maps Preview
 
 <div style="text-align: center;">
-  <img src="Layout_Map.png" width="95%">
+  <img src="images/Layout_Map.png" width="95%">
 </div>
 
 ---
