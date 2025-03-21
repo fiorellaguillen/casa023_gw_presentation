@@ -136,57 +136,61 @@ According to the **WHO’s World Malaria Report 2024:**
 .panel[.panel-name[SDGs]
 .pull-left[
 
-* Goal 3.3 : Good Health and Wellbeing
-Target : By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases
+* <span style="font-size: 90%; font-weight: bold;">Goal 3 : Good Health and Wellbeing</span> <br>
+<small><span style="font-size: 75%;">Target 3.3 : By 2030, **end the epidemics** of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</span></small>
 
-* Goal 11 : Sustainable city and community
-Target 11.3: By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries
+* <span style="font-size: 90%; font-weight: bold;"> Goal 11 : Sustainable city and community</span> <br>
+<small><span style="font-size: 75%;">Target 11.3: By 2030, enhance inclusive and **sustainable urbanization** and capacity for participatory, integrated and sustainable **human settlement planning and management** in all countries </span></small>
+
 ]
 .pull-right[
-![](images/sdgs.png)
+<img src="images/pic1.jpg" style="width: 1000px; height: auto;">
+
 ]
 ]
 .panel[.panel-name[WHO Framework]
 .pull-left[
 
-* Pillar 1 : Ensure access to malaria prevention, diagnosis and treatment as part of universal health coverage.
-Countries should *collect data across all settings*, including those areas that are malaria-free but at risk of re-establishment of malaria .
+* <span style="font-size: 90%; font-weight: bold;"> Pillar 1 : Ensure access to malaria prevention, diagnosis and treatment as part of universal health coverage </span> <br>
+<small><span style="font-size: 85%;">Countries should **collect data across all settings**, including those areas that are malaria-free but at risk of re-establishment of malaria</span></small>
 
 
-* Pillar 3. Transform malaria surveillance into a key intervention.
-Surveillance in *areas of high & low transmission* and in areas targeted for elimination
+* <span style="font-size: 90%; font-weight: bold;">  Pillar 3. Transform malaria surveillance into a key intervention </span> <br>
+<small><span style="font-size: 85%;">Surveillance in **areas of high & low transmission** and in areas targeted for elimination </span></small>
 ]
 
 .pull-right[
-![](images/who.jpg)
+<img src="images/who.jpg" style="width: 320px; height: auto;">
 ]
 ]
 
 .panel[.panel-name[National Level]
 .pull-left[
 
-* Malaria elimination policies and implementation need *basic research, operational support, and efficient technology development*
+* Malaria elimination policies and implementation need **basic research, operational support, and efficient technology development**
 
-* Planning and implementing malaria elimination activities are based on *district endemicity stratification*. 
+* Planning and implementing malaria elimination activities are based on **district endemicity stratification** 
 
-* Allocating funds from the central government to *improve case finding*, surveillance and vector control around Nusantara area
+* **Allocating funds from the central government** to improve case finding, surveillance and vector control around Nusantara area
 
 ]
 .pull-right[
-![](images/NAP.png)
+<img src="images/NAP.png" style="width: 300px; height: auto;">
 
 ]
 ]
 .panel[.panel-name[Provincial Level]
 .pull-left[
-* Governor Regulation on Guidelines for Malaria Elimination)
-* Suppress the endemic incidents (high and medium risk)
-* Eliminate the number of incidents 
-* Maintain free malaria status (low-none risk)
+<small><span style="font-size: 95%;">Since Nusantara Development is still in the initial phase, the most granular regulation regarding malaria is at the provincial level, with implementation adjusted according district's endemicity level, such as: </span></small>
+<small><span style="font-size: 95%;">
+
+* Suppress the endemic incidents **(on high and medium risk area)**<br>
+* Eliminate the number of incidents **(on low risk area)**<br>
+* Maintain free malaria status **(malaria-free risk area)**  </span></small>
 
 ]
 .pull-right[
-![](images/Picture6.png) {width = 50}
+<img src="images/Picture6.png" style="width: 250px; height: auto;">
 
 ]
 ]
