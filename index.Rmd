@@ -253,11 +253,11 @@ $$
 
 .panel[.panel-name[Vulnerability]
 * Extract Land Cover Data and classify it into vulnerability scores
-* Extract vulnerable population by age (0-15 and >60)
+* Extract vulnerable population by age (child: 0-15 and elderly: >60)
 * Sum the vulnerable population
 * Classify employment data to field and inside building and gives score 1 and 0, respectively
 * Apply Fuzzy Logic Model (FLM) to normalize the value of vulnerable population to 0-1
-* Apply Multi Criteria Decision Analysis (MCDA) to get the vulnerable index
+* Apply Multi Criteria Decision Analysis (MCDA) to get the vulnerability index
 ]
 
 .panel[.panel-name[Capacity]
@@ -276,12 +276,21 @@ $$
 
 ---
 
-
 ##Sample Dashboard 
 Placeholder for an interactive dashboard. 
 
 I tested flexdashboard r package but it's a bit complicated for the purpose of the demo so i'll go back to the initail idea of just using figma
 
+
+---
+
+##Limitation
+
+####1. Different time period from some data sources like elevation, land cover, NDWI, population by age, and administration boundary.
+
+####2. Malaria case points from SISMAL are based from health facilities not from where the patient got infected with malaria.
+
+####3. The capacity analysis is not considering the mitigation efforts.
 
 ---
 ##Stakeholder mapping
@@ -362,7 +371,11 @@ I tested flexdashboard r package but it's a bit complicated for the purpose of t
 
 <p>Johansen, I. C., Moran, E. F., & Ferreira, M. U. (2023). The impact of hydropower dam construction on malaria incidence: Space-time analysis in the Brazilian Amazon. PLOS Global Public Health, 3(3), e0001683–e0001683. https://doi.org/10.1371/journal.pgph.0001683</p>
 
+<p>Kabaria, C.W. et al. (2016) ‘Mapping intra-urban malaria risk using high resolution satellite imagery: a case study of Dar es Salaam’, International Journal of Health Geographics, 15(1), p. 26. Available at: https://doi.org/10.1186/s12942-016-0051-y.</p>
+
 <p>Nonvignon, J., Aryeetey, G. C., Malm, K. L., Agyemang, S. A., Aubyn, V. N. A., Peprah, N. Y., Bart-Plange, C. N., & Aikins, M. (2016). Economic burden of malaria on businesses in Ghana: a case for private sector investment in malaria control. Malaria Journal, 15(1), 454–454. https://doi.org/10.1186/s12936-016-1506-0</p>
+
+<p>Parselia, E. et al. (2019) ‘Satellite Earth Observation Data in Epidemiological Modeling of Malaria, Dengue and West Nile Virus: A Scoping Review’, Remote Sensing, 11(16), p. 1862. Available at: https://doi.org/10.3390/rs11161862.</p>
 
 <p>Sarma, N., Patouillard, E., Cibulskis, R. E., & Arcand, J.-L. (2019). The economic burden of Malaria: Revisiting the evidence. The American Journal of Tropical Medicine and Hygiene, 101(6), 1405–1415. https://doi.org/10.4269/ajtmh.19-0386</p>
 
