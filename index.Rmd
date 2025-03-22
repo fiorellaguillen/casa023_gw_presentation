@@ -276,13 +276,7 @@ $$
 
 ---
 
-##Sample Dashboard 
-Placeholder for an interactive dashboard. 
 
-I tested flexdashboard r package but it's a bit complicated for the purpose of the demo so i'll go back to the initail idea of just using figma
-
-
----
 
 ##Limitation
 
@@ -293,6 +287,16 @@ I tested flexdashboard r package but it's a bit complicated for the purpose of t
 ####3. The capacity analysis is not considering the mitigation efforts.
 
 ---
+
+##Sample Dashboard 
+
+<iframe src="https://www.figma.com/proto/PJaoJOJ3tUO0VGiwSxVpIu/CASA0023?content-scaling=fixed&embed-host=share&kind=proto&node-id=40-3&page-id=0%3A1&scaling=scale-down&starting-point-node-id=1%3A5&theme=light&version=2&t=vvtgpfEoNTpSJ3A8-1&hide-ui=1" style="border: none; width: 800px; height: 500px;" frameborder="0"></iframe>
+
+<!-- I'm not sure why we're getting the black border, i tied settings the margins, background, and borders but nothing seems to affect it! -->
+---
+
+
+
 ##Stakeholder mapping
 
 .panelset[
