@@ -131,14 +131,14 @@ According to the **WHO’s World Malaria Report 2024:**
 </div>
 
 ---
-##How does this scheme fit into policy?
+##How Does this Scheme Fit into Policy?
 
 .panelset[
-.panel[.panel-name[SDGs]
+.panel[.panel-name[Sustainable Development Goals]
 .pull-left[
 
 * <span style="font-size: 90%; font-weight: bold;">Goal 3 : Good Health and Wellbeing</span> <br>
-<small><span style="font-size: 75%;">Target 3.3 : By 2030, **end the epidemics** of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</span></small>
+<small><span style="font-size: 75%;">Target 3.3 : **By 2030, end the epidemics** of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</span></small>
 
 * <span style="font-size: 90%; font-weight: bold;"> Goal 11 : Sustainable city and community</span> <br>
 <small><span style="font-size: 75%;">Target 11.3: By 2030, enhance inclusive and **sustainable urbanization** and capacity for participatory, integrated and sustainable **human settlement planning and management** in all countries </span></small>
@@ -146,6 +146,21 @@ According to the **WHO’s World Malaria Report 2024:**
 ]
 .pull-right[
 <img src="images/pic1.jpg" style="width: 1000px; height: auto;">
+
+]
+]
+.panel[.panel-name[Provincial Level]
+.pull-left[
+<small><span style="font-size: 95%;">Since Nusantara Development is still in the initial phase, the most granular regulation regarding malaria is at the provincial level, with implementation adjusted according district's endemicity level, such as: </span></small>
+<small><span style="font-size: 95%;">
+
+* Suppress the endemic incidents **(on high and medium risk area)**<br>
+* Eliminate the number of incidents **(on low risk area)**<br>
+* Maintain free malaria status **(malaria-free risk area)**  </span></small>
+
+]
+.pull-right[
+<img src="images/Picture6.png" style="width: 250px; height: auto;">
 
 ]
 ]
@@ -165,36 +180,7 @@ According to the **WHO’s World Malaria Report 2024:**
 ]
 ]
 
-.panel[.panel-name[National Level]
-.pull-left[
 
-* Malaria elimination policies and implementation need **basic research, operational support, and efficient technology development**
-
-* Planning and implementing malaria elimination activities are based on **district endemicity stratification** 
-
-* **Allocating funds from the central government** to improve case finding, surveillance and vector control around Nusantara area
-
-]
-.pull-right[
-<img src="images/NAP.png" style="width: 300px; height: auto;">
-
-]
-]
-.panel[.panel-name[Provincial Level]
-.pull-left[
-<small><span style="font-size: 95%;">Since Nusantara Development is still in the initial phase, the most granular regulation regarding malaria is at the provincial level, with implementation adjusted according district's endemicity level, such as: </span></small>
-<small><span style="font-size: 95%;">
-
-* Suppress the endemic incidents **(on high and medium risk area)**<br>
-* Eliminate the number of incidents **(on low risk area)**<br>
-* Maintain free malaria status **(malaria-free risk area)**  </span></small>
-
-]
-.pull-right[
-<img src="images/Picture6.png" style="width: 250px; height: auto;">
-
-]
-]
 ]
 ---
 ## Framework
