@@ -302,17 +302,17 @@ $$
 .panelset[
 .panel[.panel-name[Government Agencies]
 .pull-left[
-
+<span style="font-size: 10px;"> 
 * Regulation and alignment with national health and sustainable development policies
 
 * Definition of intervention strategies and allocation of state funding
 
 * Coordination with international organizations
 
-* Implementation of environmental and urban regulations in Nusantara
+* Implementation of environmental and urban regulations in Nusantara </span>
 ]
 .pull-right[
-![](images/stakeholders.png)
+![](images/stakeholders_1.png)
 ]
 ]
 
@@ -329,7 +329,7 @@ $$
 * Exchange of results and research
 ]
 .pull-right[
-![](images/stakeholders.png)
+![](images/stakeholders_3.png)
 ]
 ]
 
@@ -344,14 +344,14 @@ $$
 * Development of monitoring tools
 ]
 .pull-right[
-![](images/stakeholders.png)
+![](images/stakeholders_2.png)
 ]
 ]
 
 ]
 
 ---
-##Project workflow
+##Project areas
 ![](images/activities.png)
 ---
 ##Timeline
@@ -360,10 +360,32 @@ $$
 
 ##Budget
 
-<div style="text-align: center;">
-  <img src="images/budget.png" style="width: 90%;">
-</div>
+.panelset[
+.panel[.panel-name[Human Capital]
 
+![](images/budget_1.png)
+
+<span style="font-size: 10px;"> *Pay per month source: https://www.itjobswatch.co.uk/</span>
+
+]
+
+.panel[.panel-name[Technology]
+
+![](images/budget_2.png)
+]
+
+
+.panel[.panel-name[Logistics]
+
+![](images/budget_3.png)
+
+]
+
+.panel[.panel-name[Summary]
+
+![](images/budget_4.png)
+]
+]
 ---
 ## Integration of dashboard in the system
 
