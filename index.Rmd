@@ -160,6 +160,7 @@ According to the **WHO’s World Malaria Report 2024:**
 * **Free-malaria area** : maintain malaria-free status </span></small>
 
 ]
+
 .pull-right[
 <img src="images/Picture6.png" style="width: 250px; height: auto;">
 <figcaption style="text-align: center; font-size: 12px;">
@@ -168,23 +169,11 @@ According to the **WHO’s World Malaria Report 2024:**
 ]
 ]
 .panel[.panel-name[Tangible Action : WHO Framework]
-.pull-left[
+![](images/who.jpg)
 
-* <span style="font-size: 90%; font-weight: bold;"> Pillar 1 : Ensure access to malaria prevention, diagnosis and treatment as part of universal health coverage </span> <br>
-<small><span style="font-size: 85%;">Countries should **collect data across all settings**, including those areas that are malaria-free but at risk of re-establishment of malaria</span></small>
-
-
-* <span style="font-size: 90%; font-weight: bold;">  Pillar 3. Transform malaria surveillance into a key intervention </span> <br>
-<small><span style="font-size: 85%;">Surveillance in **areas of high & low transmission** and in areas targeted for elimination </span></small>
-]
-
-.pull-right[
-<img src="images/who.jpg" style="width: 320px; height: auto;">
 ]
 ]
 
-
-]
 ---
 ## Framework
 
@@ -416,7 +405,7 @@ SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malari
 
 <p>Parselia, E. et al. (2019) ‘Satellite Earth Observation Data in Epidemiological Modeling of Malaria, Dengue and West Nile Virus: A Scoping Review’, Remote Sensing, 11(16), p. 1862. Available at: https://doi.org/10.3390/rs11161862.</p>
 
-<p> Regulation of The Governor of East Kalimantan Number 58 Of 2023 OnGuidelines For Malaria Elimination Implementation </p>
+<p> Regulation of The Governor of East Kalimantan Number 58 Of 2023 On Guidelines For Malaria Elimination Implementation </p>
 
 <p>Sarma, N., Patouillard, E., Cibulskis, R. E., & Arcand, J.-L. (2019). The economic burden of Malaria: Revisiting the evidence. The American Journal of Tropical Medicine and Hygiene, 101(6), 1405–1415. https://doi.org/10.4269/ajtmh.19-0386</p>
 
@@ -425,9 +414,8 @@ SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malari
 <p>The Jakarta Post (2020). New capital city development requires 300,000 construction workers. Available from: https://www.thejakartapost.com/news/2020/02/26/new-capital-city-development-requires-300000-construction-workers.html</p>
 
 <p>World Health Organization (WHO). (2024). World malaria report 2024. Available from: https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2024 </p>
-</div>
 
-<p> World Health Organization (2021) Global technical strategy for malaria 2016–2030, 2021 update. Geneva: WHO. Available at: https://www.who.int/publications/i/item/9789240031357. <p> </div>
+<p>World Health Organization (2021) Global technical strategy for malaria 2016–2030, 2021 update. Geneva: WHO. Available at: https://www.who.int/publications/i/item/9789240031357. </p></div>
 
 
 
