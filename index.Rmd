@@ -47,10 +47,13 @@ According to the **WHO’s World Malaria Report 2024:**
 ]
 --
 .pull-right[
-<img src="images/OxfordEconomics.png"/>
+<div style="text-align: center;">
+<!-- original source: https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iSKQdPOewivM/v1/-999x-999.gif -->
+
+<img src="images/change.gif"/>
 <figcaption style="text-align: center; font-size: 12px;">
- <a href="https://www.oxfordeconomics.com/resource/a-capital-is-born-the-impact-of-indonesia-moving-its-capital-city/
-">Source: Oxford Economics</a>
+ <a href="https://www.bloomberg.com/news/features/2022-12-05/indonesia-s-new-rainforest-city-president-jokowi-s-nusantara-plans-face-trouble?embedded-checkout=true
+">Source: Bloomberg UK</a>
 </figcaption>
 ]
 
@@ -104,6 +107,43 @@ According to the **WHO’s World Malaria Report 2024:**
 </div>
 
 ---
+.pull-center[
+<div style="text-align: center;">
+
+<div style="text-align: center;font-size: 30px">
+<strong>Nusantara: A New Capital City in the Forest</strong>
+</div>
+<br>
+
+<div class="image-slider">
+<div><img src="images/indonesia_nusantara_2022.jpg"" /></div>
+<img src="images/indonesia_nusantara_2024.jpg" " />
+</div>
+</div>
+
+
+.pull-left[
+<div style="text-align: center;font-size: 12px">
+April 26, 2022
+</div>
+
+]
+.pull-right[
+<div style="text-align: center;font-size: 12px">
+February 19, 2024
+
+</div>
+]
+<br>
+<div style="font-size: 10px;text-align: center;">
+ <a href="https://earthobservatory.nasa.gov/images/152471/nusantara-a-new-capital-city-in-the-forest">Source: NASA</a>
+</div>
+
+]
+---
+
+
+
 ##What benefit does it bring to the city?
 
 .panelset[
