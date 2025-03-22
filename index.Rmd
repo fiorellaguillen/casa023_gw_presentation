@@ -12,6 +12,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+
 ```{css, echo=FALSE}
 .title-slide {
   background-image: url("images/option1.jpg"); /* Change background image */
@@ -360,6 +361,52 @@ I tested flexdashboard r package but it's a bit complicated for the purpose of t
 </div>
 
 ---
+## Integration of dashboard in the system
+
+.pull-left[
+
+SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malaria in Indonesia.
+
+.panelset[
+.panel[.panel-name[Current Monitoring systems]
+* It is a web-based system that allows for real-time data entry and reporting.
+* It is used by health facilities to report malaria cases.
+* 1-2-5 Strategy: Case reported on Day 1, investigated on Day 2, intervention by Day 5.
+]
+
+.panel[.panel-name[Challenges & Limitations]
+* Incomplete reporting
+* Poor internet connectivity in remote areas
+* Limited training on using the system.
+]
+]
+]
+
+.pull-right[
+![Nusantara](images/nusantara.png)
+
+<br/>
+
+![Malaria Case Reporting Flowchart of Lahat](images/reporting_flowchart.png)
+]
+---
+
+## Integration of dashboard in the system
+
+
+.panelset[
+.panel[.panel-name[Short Term]
+![Dashboard Integration Flowchart](images/Short term integration.png)
+]
+
+.panel[.panel-name[Long Term]
+![Dashboard Integration Flowchart](images/Long term integration.png)
+]
+
+
+]
+
+---
 ## References
 <div style="font-size: 10px;">
 <p>Bauhoff, S., & Busch, J. (2020). Does deforestation increase malaria prevalence? Evidence from satellite data and health surveys. World Development, 127, 104734-. https://doi.org/10.1016/j.worlddev.2019.104734</p>
@@ -384,4 +431,6 @@ I tested flexdashboard r package but it's a bit complicated for the purpose of t
 
 <p>World Health Organization (WHO). (2024). World malaria report 2024. Available from: https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2024 </p>
 </div>
+
+
 
