@@ -1,45 +1,18 @@
 ---
-title: "MALARIA ANALYSIS"
-subtitle: "leveraging Remote Sensing"
+title: "Malaria’s Shadow Over Nusantara:"
+subtitle: "Safeguarding the New Capital's Development with Earth Observation"
 author: "<br><br><br><br>Group: Tropical Threat"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: xaringan-themer.css
+    css:  ["xaringan-themer.css", "custom.css"]
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
 ---
 
-```{css, echo=FALSE}
-.title-slide {
-  background-image: url("images/option1.jpg"); /* Change background image */
-  background-size: cover;
-  background-position: center;
-}
-
-```{css, echo=FALSE}
-.title-slide h1 {  
-  font-size: 50px;  /* Change title size */
-  line-height: 10px; /* Spacing */
-}
-
-.title-slide h2 {  
-  font-size: 30px;  /* Change subtitle size */
-  line-height: 10px;  
-}
-
-.title-slide h3 {  
-  font-size: 25px;  /* Change author size */
-  line-height: 20px;  
-}
-
-.title-slide p {  
-  font-size: 20px;  /* Change date size */
-  line-height: 10px;  
-}
 
 ```{r xaringan-panelset, echo=FALSE}
 xaringanExtra::use_panelset() 
@@ -56,7 +29,7 @@ style_mono_accent(  #we can change it to anything you prefer
 )
 ```
 
-<!-- I suggest we change the title to something more specif, what do you think of this? Malaria’s Shadow Over Nusantara: Safeguarding Development with Earth Observation what do you think of this title? -->
+<!-- I suggest we change the title to something more specif, what do you think of this? Malaria’s Shadow Over Nusantara: Safeguarding the New Capital's Development with Earth Observation what do you think of this title? -->
 
 ## Malaria: A Persistent Global Challenge
 

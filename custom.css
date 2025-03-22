@@ -1,0 +1,26 @@
+.title-slide {
+    background-image: url("images/option1.jpg"); /* Change background image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+ 
+  .title-slide h1 {  
+    font-size: 50px;  /* Change title size */
+    line-height: 10px; /* Spacing */
+  }
+  
+  .title-slide h2 {  
+    font-size: 30px;  /* Change subtitle size */
+    line-height: 30px;  
+  }
+  
+  .title-slide h3 {  
+    font-size: 25px;  /* Change author size */
+    line-height: 20px;  
+  }
+  
+  .title-slide p {  
+    font-size: 20px;  /* Change date size */
+    line-height: 10px;  
+  }
