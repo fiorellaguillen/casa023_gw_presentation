@@ -280,14 +280,14 @@ $$
 .panelset[
 .panel[.panel-name[Government Agencies]
 .pull-left[
-<span style="font-size: 10px;"> 
-* Regulation and alignment with national health and sustainable development policies
+* <span style="font-size: 80%;"> Regulation and alignment with national health and sustainable development policies</span>
 
-* Definition of intervention strategies and allocation of state funding
+* <span style="font-size: 80%;"> Definition of intervention strategies and allocation of state funding</span>
 
-* Coordination with international organizations
+* <span style="font-size: 80%;"> Coordination with international organizations</span>
 
-* Implementation of environmental and urban regulations in Nusantara </span>
+* <span style="font-size: 80%;"> Implementation of environmental and urban regulations in Nusantara</span>
+
 ]
 .pull-right[
 ![](images/stakeholders_1.png)
@@ -296,15 +296,15 @@ $$
 
 .panel[.panel-name[Community]
 .pull-left[
-* Active input during fieldwork regarding social practices 
+* <span style="font-size: 80%;">Active input during fieldwork regarding social practices </span>
 
-* Validation of epidemiological and environmental data through fieldwork
+* <span style="font-size: 80%;">Validation of epidemiological and environmental data through fieldwork</span>
 
-* Implementation of disease monitoring and control strategies at the local level including 
+* <span style="font-size: 80%;">Implementation of disease monitoring and control strategies at the local level including </span>
 
-* Capacity building and training for healthcare professionals and policymakers
+* <span style="font-size: 80%;">Capacity building and training for healthcare professionals and policymakers</span>
 
-* Exchange of results and research
+* <span style="font-size: 80%;">Exchange of results and research</span>
 ]
 .pull-right[
 ![](images/stakeholders_3.png)
@@ -313,13 +313,13 @@ $$
 
 .panel[.panel-name[Intermediary stakeholders]
 .pull-left[
-* Establishing international standards and guidelines for malaria monitoring
+* <span style="font-size: 80%;">Establishing international standards and guidelines for malaria monitoring</span>
 
-* Providing technical assistance and future funding
+* <span style="font-size: 80%;">Providing technical assistance and future funding</span>
 
-* Supporting research, advocacy, and awareness campaigns
+* <span style="font-size: 80%;">Supporting research, advocacy, and awareness campaigns</span>
 
-* Development of monitoring tools
+* <span style="font-size: 80%;">Development of monitoring tools</span>
 ]
 .pull-right[
 ![](images/stakeholders_2.png)
