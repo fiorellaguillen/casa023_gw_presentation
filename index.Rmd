@@ -427,5 +427,7 @@ SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malari
 <p>World Health Organization (WHO). (2024). World malaria report 2024. Available from: https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2024 </p>
 </div>
 
+<p> World Health Organization (2021) Global technical strategy for malaria 2016–2030, 2021 update. Geneva: WHO. Available at: https://www.who.int/publications/i/item/9789240031357. <p> </div>
+
 
 
