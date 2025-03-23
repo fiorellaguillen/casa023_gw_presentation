@@ -22,7 +22,7 @@ xaringanExtra::use_panelset()
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_mono_accent(  #we can change it to anything you prefer
-  base_color = "#7f2200",
+  base_color = "#353A62",
   header_font_google = google_font("Lato"),
   text_font_google   = google_font("Montserrat", "300", "300i"),
   code_font_google   = google_font("Fira Mono")
@@ -398,6 +398,15 @@ SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malari
 <!-- i couldn't figure out why the resolution is bad so i'm adding a link for the original Figma viewer just in case -->
 ---
 
+class: center, middle, inverse
+background-image: url("images/aereal_photo.jpg")
+background-size: cover
+
+#<span style="font-size: 50px;">How are we planning <br> to implement it?</span>
+
+
+---
+
 ##Stakeholder mapping
 
 .panelset[
@@ -413,8 +422,9 @@ SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malari
 
 ]
 .pull-right[
-![](images/stakeholders_1.png)
+<img src="images/stakeholders_1.png" width="120%">
 ]
+
 ]
 
 .panel[.panel-name[Community]
@@ -430,7 +440,7 @@ SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malari
 * <span style="font-size: 80%;">Exchange of results and research</span>
 ]
 .pull-right[
-![](images/stakeholders_3.png)
+<img src="images/stakeholders_3.png" width="120%">
 ]
 ]
 
@@ -445,7 +455,7 @@ SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malari
 * <span style="font-size: 80%;">Development of monitoring tools</span>
 ]
 .pull-right[
-![](images/stakeholders_2.png)
+<img src="images/stakeholders_2.png" width="120%">
 ]
 ]
 
@@ -453,10 +463,10 @@ SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malari
 
 ---
 ##Project areas
-![](images/activities.png)
+<img src="images/activities.png" width="120%">
 ---
 ##Timeline
-![](images/timeline.png)
+<img src="images/timeline.png" width="120%">
 ---
 
 ##Budget
@@ -488,6 +498,16 @@ SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malari
 ]
 ]
 ---
+
+class: center, middle, inverse
+background-image: url("images/aereal_photo.jpg")
+background-size: cover
+
+<img src="images/logo.png" width="20%">
+
+
+---
+
 
 
 ## References
