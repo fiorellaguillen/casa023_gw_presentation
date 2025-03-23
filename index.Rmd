@@ -489,6 +489,9 @@ SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malari
 ]
 ---
 
+###SWOT Analysis: Proposed Malaria Risk Framework for Nusantara
+![](images/SWOT.png)
+---
 
 ## References
 <div style="font-size: 10px;">
