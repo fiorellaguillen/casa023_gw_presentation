@@ -37,17 +37,20 @@ Malaria remains one of the world’s most severe public health threats, affectin
 
 
 .pull-left[
+
+
 According to the **WHO’s World Malaria Report 2024:**
-- 263 million estimated cases worldwide in 2023, up by 11 million in 2022.
+<div style="text-align: justify; font-size: 16px">
+- **263 million** estimated cases worldwide in 2023, up by 11 million in 2022.
 
-- Indonesia has the 2nd highest malaria cases in East Asia Region.
+- Indonesia has the **2nd highest** malaria cases in East Asia Region.
 
-- The disease's global impact is worsened by factors like climate change, population movement, and health service disruptions.
+- The disease's global impact is worsened by factors like **climate change, population movement, and health service disruptions**.
 
 ]
+</div>
 --
 .pull-right[
-<div style="text-align: center;">
 <!-- original source: https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iSKQdPOewivM/v1/-999x-999.gif -->
 
 <img src="images/change.gif"/>
@@ -60,52 +63,49 @@ According to the **WHO’s World Malaria Report 2024:**
 ---
 
 
-
 ## Background Research and Framing
 
-<div style="font-size: 12px; line-height: 1.5;">
+<div style="font-size: 12px; line-height: 1.5; text-align: justify">
     <div class="pull-left">
-        <div style="font-size: 14px"><strong>Environmental Context</strong></div>
+        <div style="font-size: 20px; font-weight: bold"><strong>Environmental Context</strong></div>
         <hr />
         <ul>
-            <li>Nusantara’s construction clears rainforests and wetlands, creating mosquito breeding sites.</li>
+            <li>Nusantara’s construction clears rainforests and wetlands, <strong>creating mosquito breeding sites</strong>.</li>
             <li>Deforestation increases malaria risk by altering habitats (Bauhoff & Busch, 2020; Fornace et al., 2021).</li>
-            <li>East Kalimantan lost 20% tree cover between 2001 and 2022 (Global Forest Watch, 2023).</li>
+            <li>East Kalimantan, the province of the new capital, <strong>lost 20% tree cover</strong> between 2001 and 2022 (Global Forest Watch, 2023).</li>
         </ul>
     </div>
     <div class="pull-right">
-        <div style="font-size: 14px"><strong>Health Context</strong></div>
+        <div style="font-size: 20px; font-weight: bold"><strong>Health Context</strong></div>
         <hr />
         <ul>
-            <li>As a new city, Nusantara may lack robust health systems for malaria surveillance and treatment, potentially straining East Kalimantan’s existing infrastructure.</li>
-            <li>East Kalimantan’s Annual Parasite Index (API) was 1.23 in 2020, significantly higher than the 0.13 API for South, West, North, and Central Kalimantan combined (Sugiarto et al., 2022).</li>
+            <li>As a new city, Nusantara may lack robust health systems for malaria surveillance and treatment, potentially straining existing infrastructure.</li>
+            <li>East Kalimantan’s Annual Parasite Index (API) was 1.23 in 2020, significantly <strong>higher</strong> than the 0.13 API for South, West, North, and Central Kalimantan combined (Sugiarto et al., 2022).</li>
         </ul>
     </div>
     <div class="pull-right">
-        <div style="font-size: 14px"><strong>Economic Context</strong></div>
+        <div style="font-size: 20px; font-weight: bold"><strong>Economic Context</strong></div>
         <hr />
         <ul>
-            <li>Uncontrolled malaria could undermine Nusantara’s appeal to investors and residents, stunting its economic potential.</li>
+            <li>Uncontrolled malaria could undermine Nusantara’s appeal to investors and residents, stunting its <strong>economic potential</strong>.</li>
             <li>Sarma et al. (2019) estimates that every $1 spent on malaria control can yield $4–$14 in economic benefits through enhanced productivity and reduced healthcare spending.</li>
-                        <li>Ghana lost about US$6.58 million to malaria in 2014 (Nonvignon et al., 2016).</li>
-
+            <li>Ghana lost about US$6.58 million to malaria in 2014 (Nonvignon et al., 2016).</li>
         </ul>
     </div>
 </div>
 
 <div style="font-size: 12px; line-height: 1.5;">
     <div class="pull-left">
-        <div style="font-size: 14px"><strong>Social Context</strong></div>
+        <div style="font-size: 20px; font-weight: bold"><strong>Social Context</strong></div>
         <hr />
         <ul>
-            <li>Nusantara’s development includes a projected workforce of 300,000 construction workers (The Jakarta Post, 2020).</li>
+            <li>Nusantara’s development includes a <strong>projected workforce of 300,000 construction workers</strong> (The Jakarta Post, 2020).</li>
             <li>Sugiarto et al. (2022) confirms that most malaria cases in East Kalimantan are among adult males engaged in occupational activities.</li>
-            <li>Population mobility drives malaria resurgence (WHO, 2024).</li>
+            <li><strong>Population mobility</strong> drives malaria resurgence (WHO, 2024).</li>
             <li>Similar patterns seen in Brazil’s Belo Monte Dam project (Johansen et al., 2023).</li>
         </ul>
     </div>
 </div>
-
 ---
 .pull-center[
 <div style="text-align: center;">
@@ -285,14 +285,70 @@ $$
 
 ---
 
-##Sample Dashboard 
 
-<iframe src="https://www.figma.com/proto/PJaoJOJ3tUO0VGiwSxVpIu/CASA0023?content-scaling=fixed&embed-host=share&kind=proto&node-id=40-3&page-id=0%3A1&scaling=scale-down&starting-point-node-id=1%3A5&theme=light&version=2&t=vvtgpfEoNTpSJ3A8-1&hide-ui=1" style="border: none; width: 800px; height: 500px;" frameborder="0"></iframe>
 
-<!-- I'm not sure why we're getting the black border, i tied settings the margins, background, and borders but nothing seems to affect it! -->
+##Sample Dashboard
+<div style="text-align: center; height: 500px; width: 700px; margin: auto;">
+    <iframe style="border: 1px solid black;" width="100%" height="100%" 
+            src="https://www.figma.com/proto/PJaoJOJ3tUO0VGiwSxVpIu/CASA0023?content-scaling=fixed&embed-host=share&kind=proto&node-id=40-3&page-id=0%3A1&scaling=scale-down-width&starting-point-node-id=1%3A5&theme=light&version=2&t=vvtgpfEoNTpSJ3A8-1&hide-ui=1"></iframe>
+</div>
+
+<div style="display: flex; justify-content: space-between; font-size: 11px; margin-top: 10px;">
+    <span style="text-align: left;">
+        <a href="https://www.figma.com/proto/PJaoJOJ3tUO0VGiwSxVpIu/CASA0023?node-id=152-6&p=f&t=H4MuREoSWrsjWESA-1&scaling=scale-down&content-scaling=fixed&page-id=92%3A29&starting-point-node-id=152%3A6">Go to a better resolution dashboard</a>
+    </span>
+    
+</div>
+
+<!-- i couldn't figure out why the resolution is bad so i'm adding a link for the original Figma viewer just in case -->
 ---
 
+## Integration of dashboard in the system
 
+.pull-left[
+
+SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malaria in Indonesia.
+
+.panelset[
+.panel[.panel-name[Current Monitoring systems]
+* It is a web-based system that allows for real-time data entry and reporting.
+* It is used by health facilities to report malaria cases.
+* 1-2-5 Strategy: Case reported on Day 1, investigated on Day 2, intervention by Day 5.
+]
+
+.panel[.panel-name[Challenges & Limitations]
+* Incomplete reporting
+* Poor internet connectivity in remote areas
+* Limited training on using the system.
+]
+]
+]
+
+.pull-right[
+![Nusantara](images/nusantara.png)
+
+<br/>
+
+![Malaria Case Reporting Flowchart of Lahat](images/reporting_flowchart.png)
+]
+---
+
+## Integration of dashboard in the system
+
+
+.panelset[
+.panel[.panel-name[Short Term]
+![Dashboard Integration Flowchart](images/Short term integration.png)
+]
+
+.panel[.panel-name[Long Term]
+![Dashboard Integration Flowchart](images/Long term integration.png)
+]
+
+
+]
+
+---
 
 ##Stakeholder mapping
 
@@ -384,52 +440,7 @@ $$
 ]
 ]
 ---
-## Integration of dashboard in the system
 
-.pull-left[
-
-SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malaria in Indonesia.
-
-.panelset[
-.panel[.panel-name[Current Monitoring systems]
-* It is a web-based system that allows for real-time data entry and reporting.
-* It is used by health facilities to report malaria cases.
-* 1-2-5 Strategy: Case reported on Day 1, investigated on Day 2, intervention by Day 5.
-]
-
-.panel[.panel-name[Challenges & Limitations]
-* Incomplete reporting
-* Poor internet connectivity in remote areas
-* Limited training on using the system.
-]
-]
-]
-
-.pull-right[
-![Nusantara](images/nusantara.png)
-
-<br/>
-
-![Malaria Case Reporting Flowchart of Lahat](images/reporting_flowchart.png)
-]
----
-
-## Integration of dashboard in the system
-
-
-.panelset[
-.panel[.panel-name[Short Term]
-![Dashboard Integration Flowchart](images/Short term integration.png)
-]
-
-.panel[.panel-name[Long Term]
-![Dashboard Integration Flowchart](images/Long term integration.png)
-]
-
-
-]
-
----
 ## References
 <div style="font-size: 10px;">
 <p>Bauhoff, S., & Busch, J. (2020). Does deforestation increase malaria prevalence? Evidence from satellite data and health surveys. World Development, 127, 104734-. https://doi.org/10.1016/j.worlddev.2019.104734</p>
