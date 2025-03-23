@@ -36,7 +36,6 @@ class: center, middle, inverse, title-slide
 
 
 
-
 &lt;!-- I suggest we change the title to something more specif, what do you think of this? Malaria’s Shadow Over Nusantara: Safeguarding the New Capital's Development with Earth Observation what do you think of this title? --&gt;
 
 ## Malaria: A Persistent Global Challenge
@@ -554,7 +553,7 @@ background-size: cover
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
 "highlightLines": true,
-"countIncrementalSlides": false
+"countIncrementalSlides": true
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
@@ -651,6 +650,33 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   }
   preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
 })(document);</script>
+<style>
+.logo {
+  background-image: url(images/blue_logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 70px;
+  height: 80px;
+  z-index: 0;
+}
+
+</style>
+
+<script>
+document
+  .querySelectorAll(
+    '.remark-slide-content' +
+    ':not(.title-slide)' +
+    ':not(.inverse)' +
+    ':not(.hide-logo)'
+  )
+  .forEach(el => {
+    el.innerHTML += '<div class="logo"></div>';
+  });
+</script>
 
 <script>
 slideshow._releaseMath = function(el) {
