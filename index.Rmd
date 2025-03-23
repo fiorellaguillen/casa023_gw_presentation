@@ -499,23 +499,17 @@ background-size: cover
 ]
 ---
 
-<<<<<<< HEAD
+###SWOT Analysis: Proposed Malaria Risk Framework for Nusantara
+![](images/SWOT.png)
+---
+
 class: center, middle, inverse
 background-image: url("images/aereal_photo.jpg")
 background-size: cover
 
 <img src="images/logo.png" width="20%">
 
-
 ---
-
-
-=======
-###SWOT Analysis: Proposed Malaria Risk Framework for Nusantara
-![](images/SWOT.png)
----
->>>>>>> 55ef630513604a39385d4c2992b824a4f7f465a9
-
 ## References
 <div style="font-size: 10px;">
 <p>Bauhoff, S., & Busch, J. (2020). Does deforestation increase malaria prevalence? Evidence from satellite data and health surveys. World Development, 127, 104734-. https://doi.org/10.1016/j.worlddev.2019.104734</p>
