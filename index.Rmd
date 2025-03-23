@@ -287,20 +287,52 @@ $$
 
 
 
-##Sample Dashboard
-<div style="text-align: center; height: 500px; width: 700px; margin: auto;">
-    <iframe style="border: 1px solid black;" width="100%" height="100%" 
-            src="https://www.figma.com/proto/PJaoJOJ3tUO0VGiwSxVpIu/CASA0023?content-scaling=fixed&embed-host=share&kind=proto&node-id=40-3&page-id=0%3A1&scaling=scale-down-width&starting-point-node-id=1%3A5&theme=light&version=2&t=vvtgpfEoNTpSJ3A8-1&hide-ui=1"></iframe>
-</div>
+### Short, Medium, and Long Term Integration
 
-<div style="display: flex; justify-content: space-between; font-size: 11px; margin-top: 10px;">
-    <span style="text-align: left;">
-        <a href="https://www.figma.com/proto/PJaoJOJ3tUO0VGiwSxVpIu/CASA0023?node-id=152-6&p=f&t=H4MuREoSWrsjWESA-1&scaling=scale-down&content-scaling=fixed&page-id=92%3A29&starting-point-node-id=152%3A6">Go to a better resolution dashboard</a>
-    </span>
-    
-</div>
+.pull-left[
 
-<!-- i couldn't figure out why the resolution is bad so i'm adding a link for the original Figma viewer just in case -->
+   <div style="font-size: 20px; font-weight: bold"><strong>Short-Term (1 year)</strong></div>
+        <hr />
+        <div style="  font-size: 16px; text-align: justify">
+      <ul>
+            <li> The Risk Index can be used to prioritize immediate vector control measures in high-risk zones (e.g.,spraying mosquito-heavy areas, distributing insecticide-treated nets).
+            </li>
+             <br>
+            <li>Set up temporary health posts in worker camps.</li>
+        
+</ul>
+    </div>
+        </div>
+
+]
+.pull-right[
+
+   <div style="font-size: 20px; font-weight: bold"><strong>Medium-Term (2-5 years)</strong></div>
+        <hr />
+          <div style="  font-size: 16px; line-height: 1; text-align: justify">
+
+        <ul>
+  <li> Incorporate malaria risk insights with city planning, aligning with Indonesia’s Spatial Planning Act, that  emphasizes integrating sectoral plans (e.g., health) with spatial strategies <a href="https://www.mlit.go.jp/kokudokeikaku/international/spw/general/indonesia/index_e.html">Source</a>.</li>
+   <ul> <li>Land Use Planning.</li>
+    <li>Infrastructure Design.</li>
+    <li>Health Facility Placement.</li>
+      </ul> 
+      <br>
+       <li>Link malaria risk maps to current tools like SISMAL, adding spatial depth that enhances tracking and outbreak control  </li>
+      </ul>
+          </div>
+    </div>
+]
+  <div style=" padding: 10px; font-size: 16px; text-align: justify">
+        <div style="font-size: 20px; font-weight: bold"><strong>Long-Term</strong></div>
+        <hr />
+        <ul>
+            <li>Embed malaria risk into Nusantara’s master plan for sustainable urban development to ensuret that future expansions are <strong>malaria-resilient. </strong>.</li>
+            <li> what can we add? further integration? live monotoring...</li>
+        </ul>
+    </div>
+
+</div>
 ---
 
 ## Integration of dashboard in the system
@@ -348,6 +380,22 @@ SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malari
 
 ]
 
+---
+
+##Sample Dashboard
+<div style="text-align: center; height: 500px; width: 700px; margin: auto;">
+    <iframe style="border: 1px solid black;" width="100%" height="100%" 
+            src="https://www.figma.com/proto/PJaoJOJ3tUO0VGiwSxVpIu/CASA0023?content-scaling=fixed&embed-host=share&kind=proto&node-id=40-3&page-id=0%3A1&scaling=scale-down-width&starting-point-node-id=1%3A5&theme=light&version=2&t=vvtgpfEoNTpSJ3A8-1&hide-ui=1"></iframe>
+</div>
+
+<div style="display: flex; justify-content: space-between; font-size: 11px; margin-top: 10px;">
+    <span style="text-align: left;">
+        <a href="https://www.figma.com/proto/PJaoJOJ3tUO0VGiwSxVpIu/CASA0023?node-id=152-6&p=f&t=H4MuREoSWrsjWESA-1&scaling=scale-down&content-scaling=fixed&page-id=92%3A29&starting-point-node-id=152%3A6">Go to a better resolution dashboard</a>
+    </span>
+    
+</div>
+
+<!-- i couldn't figure out why the resolution is bad so i'm adding a link for the original Figma viewer just in case -->
 ---
 
 ##Stakeholder mapping
@@ -440,6 +488,7 @@ SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malari
 ]
 ]
 ---
+
 
 ## References
 <div style="font-size: 10px;">
