@@ -9,6 +9,7 @@ output:
     css:  ["xaringan-themer.css", "custom.css"]
     includes:
       after_body: insert-logo.html
+      in_header: "browser-logo.html" 
     nature:
       highlightStyle: github
       highlightLines: true
