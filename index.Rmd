@@ -223,13 +223,13 @@ background-size: cover
 
 | No | Data         | Product  | Band                 | Spatial Resolution | Time |
 |----|------------- |--------- |----------------------|--------------------|------|
-| 1  | Elevation    | ALOS DSM | DSM                  | 30 m               | 2011 |
-| 2  | LST          | MODIS    | LST_Day_1km          | 1000 m             | 2024 |
-| 3  | Land Cover   | ESRI     | Annual Land Cover    | 10 m               | 2023 |
-| 4  | NDVI         | MODIS    | NDVI                 | 500 m              | 2024 |
-| 5  | NDWI         | MODIS    | NDWI                 | 463.3 m            | 2023 |
-| 6  | Precipitation| CHIRPS   | Precipitation        | 5566 m             | 2024 |
-| 7  | Age          | Worldpop | M_0 – M_15, M_60 – M_80, F_0 – F_15, F_60 – F_80 | 92.77 m | 2020 |
+| 1  | LST          | MODIS    | LST_Day_1km          | 1000 m             | 2025 |
+| 2  | Land Cover   | Landsat  | Red, Green, Blue     | 30 m               | 2025 |
+| 3  | NDVI         | Landsat  | NIR, Red             | 30 m               | 2025 |
+| 4  | NDWI         | Landsat  | Green, NIR           | 30 m               | 2025 |
+| 5  | Precipitation| CHIRPS   | Precipitation        | 5566 m             | 2025 |
+| 6  | Age          | Worldpop | M_0 – M_15, M_60 – M_80, F_0 – F_15, F_60 – F_80 | 92.77 m | 2020 |
+| 7  | Elevation    | Indonesia Geospatial Agency | DEMNAS | 8.3 m         | 2025 |
 
 ---
 
@@ -237,11 +237,11 @@ background-size: cover
 
 | No | Data                   | Product               | Type    | Time |
 |----|------------------------|-----------------------|---------|------|
-| 1  | Health Facility        | Open Street Map       | Points  | 2024 |
-| 2  | Malaria Cases          | SISMAL Indonesia      | Points  | 2024 |
-| 3  | Road Networks          | Open Street Map       | Line    | 2024 |
-| 4  | Employment             | Central Bureau of Statistics Indonesia | Polygon | 2024 |
-| 5  | Administration Boundary | Indonesia Geospatial Agency| Polygon  | 2018 |
+| 1  | Health Facility        | Open Street Map       | Points  | 2025 |
+| 2  | Malaria Cases          | SISMAL Indonesia      | Points  | 2025 |
+| 3  | Road Networks          | Open Street Map       | Line    | 2025 |
+| 4  | Employment             | Central Bureau of Statistics Indonesia | Polygon | 2025 |
+| 5  | Administration Boundary | Indonesia Geospatial Agency| Polygon  | 2025 |
 
 <div style="text-align: center;">
   <img src="images/Layout_Vector.png" width="40%">
@@ -259,25 +259,33 @@ $$
 
 .panelset[
 .panel[.panel-name[Susceptibility]
-* Extract LST, Precipitation, NDVI, and NDWI data and filter it for summer period (April - September) and minimum cloud cover
-* Get the mean value of each LST, Precipitation, NDVI, and NDWI
+* Calculate the monthly mean of LST and Precipitation
+* Calculate NDVI and NDWI from Landsat
+$$
+NDVI = \frac{(NIR - Red)}{(NIR + Red)}
+$$
+$$
+NDWI = \frac{(Green - NIR)}{(Green + NIR)}
+$$
 * Divide the Malaria Cases Point for training and testing data
 * Apply Boosted Regression Tree machine learning algorithm to get the susceptibility index
+* Normalize the value result into score of 1-100 using Fuzzy Logic Model
 ]
 
 .panel[.panel-name[Vulnerability]
-* Extract Land Cover Data and classify it into vulnerability scores
-* Extract vulnerable population by age (child: 0-15 and elderly: >60)
-* Sum the vulnerable population
-* Classify employment data to field and inside building and gives score 1 and 0, respectively
-* Apply Fuzzy Logic Model (FLM) to normalize the value of vulnerable population to 0-1
+* Classify Land Cover using Random Forest algorithm
+* Extract vulnerable population by age (children: 0-15, elderly: >60)
+* Sum the vulnerable population (children and elderly)
+* Reclassify employment data to field officer and office worker
+* Calculate the number of field officer
+* Apply Fuzzy Logic Model (FLM) to normalize the value of vulnerable population and employment to 1-100
 * Apply Multi Criteria Decision Analysis (MCDA) to get the vulnerability index
 ]
 
 .panel[.panel-name[Capacity]
 * Extract hospital location point and road networks from Open Street Map (OSM)
 * Calculate distance using Cost Distance Analysis
-* Apply Fuzzy Logic Model (FLM) to normalize the value of distance to 0-1
+* Apply Fuzzy Logic Model (FLM) to normalize the value of distance to 1-100
 ]
 ]
 ---
@@ -290,15 +298,23 @@ $$
 
 ---
 
-
-
 ##Limitation
 
-####1. Different time period from some data sources like elevation, land cover, NDWI, population by age, and administration boundary.
+1. Low spatial resolution for temperature and precipitation.
 
-####2. Malaria case points from SISMAL are based from health facilities not from where the patient got infected with malaria.
+2. Malaria case points from SISMAL are based from where malaria cases were reported not from where the patient got infected with malaria.
 
-####3. The capacity analysis is not considering the mitigation efforts.
+3. The capacity analysis is not considering the availability of current prevention efforts such as insecticides, environmental modification, and bed nets.
+
+4. The temporal resolution of Landsat limit it to monthly analysis.
+
+5. Not updated population dataset.
+
+##Future Updates
+
+1. Integration with Meteorology, Climatology, and Geophysical Agency to get more accurate temperature and precipitation data.
+
+2. Integration with Central Bureau of Statistics Indonesia to get population data per pixel.
 
 ---
 
