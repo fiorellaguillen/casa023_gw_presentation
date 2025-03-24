@@ -26,7 +26,31 @@
     line-height: 10px;  
   }
   
-  
+.medium-text {
+  font-size: 90%;
+}
+
+.medium-text ol, 
+.medium-text ul {
+  font-size: 90%;
+}
+
+.medium-text2 {
+  font-size: 90%;
+  line-height: 1.5;
+}
+
+.medium-text2 ol, 
+.medium-text2 ul {
+  font-size: 90%;
+  line-height: 1.5;
+}
+
+blockquote {
+  margin-left: 2;
+  margin-right: 0;
+}
+
   /**
  * Image slider with pure CSS
  * Original version in http://demosthenes.info/blog/css

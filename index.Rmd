@@ -187,17 +187,16 @@ February 19, 2024
 
 .panel[.panel-name[National-Provincial Goals]
 .pull-left[
-<small><span style="font-size: 60%;"> 
-* **National Level : Action Plan for Acceleration of Malaria Elimination 2020-2026** <br>
-By 2030, achieve national malaria elimination status and maintain malaria elimination (free) status </span></small>
+* <span style="font-size: 90%; font-weight: bold;"> National Level : Action Plan for Acceleration of Malaria Elimination 2020-2026 </span> <br>
+<small><span style="font-size: 75%;">By 2030, achieve national malaria elimination status and maintain malaria elimination (free) status </span></small>
 
-<small><span style="font-size: 60%;">
-* **Provincial Level : Governor's Regulation on Malaria Elimination**  
-By 2027, eliminate malaria incidents with scenario:  
+* <span style="font-size: 90%; font-weight: bold;"> Provincial Level : Governor's Regulation on Malaria Elimination</span>  
+<small><span style="font-size: 75%;">By 2027, eliminate malaria incidents with scenario:</span></small>  
+
 </span></small>
-> <span style="font-size: 50%;">**High risk area** : Suppress to < 5 cases per 1000 people ; </span> 
-> <span style="font-size: 50%;">**Medium risk area** : Eliminate to < 1 case per 1000 people ; </span>
-> <span style="font-size: 50%;">**Low-none risk area** : Attain and maintain malaria-free status</span>
+> <span style="font-size: 51%;">**High risk area**: Suppress to < 5 cases per 1000 people</span><br>
+> <span style="font-size: 51%;">**Medium risk area**: Eliminate to < 1 case per 1000 people</span><br>
+> <span style="font-size: 51%;">**Low-none risk area**: Attain and maintain malaria-free status</span><br>
 ]
 
 .pull-right[
@@ -211,7 +210,7 @@ By 2027, eliminate malaria incidents with scenario:
 .panel[.panel-name[Local]
 .pull-left[
 
-* <span style="font-size: 100%; font-weight: bold;"> Geo-analytics technology  adoption</span> <br> <br>
+* <span style="font-size: 90%; font-weight: bold;">Geo-analytics technology  adoption</span> <br> <br>
 <small><span style="font-size: 95%;"> Nusantara commits to implement Geo-analytic technology, not only showing digital maps but addressing city challenges with **predictive and prescriptive analysis**. </span></small> <br>
 
 
@@ -277,7 +276,7 @@ Preview of vector dataset
 </div>
 
 ---
-
+class: medium-text2
 ## Methodology
 
 ##### Tools = Google Earth Engine (GEE)
@@ -326,6 +325,7 @@ $$
 </div>
 
 ---
+class: medium-text
 
 ##Limitation
 
@@ -533,39 +533,39 @@ background-size: cover
 
 
 ---
+class: medium-text
 
 ##Stakeholder mapping
 
 .panelset[
 .panel[.panel-name[Government Agencies]
 .pull-left[
-* <span style="font-size: 80%;"> Regulation and alignment with national health and sustainable development policies</span>
+* Regulation and alignment with national health and sustainable development policies
 
-* <span style="font-size: 80%;"> Definition of intervention strategies and allocation of state funding</span>
+* Definition of intervention strategies and allocation of state funding
 
-* <span style="font-size: 80%;"> Coordination with international organizations</span>
+* Coordination with international organizations
 
-* <span style="font-size: 80%;"> Implementation of environmental and urban regulations in Nusantara</span>
-
+* Implementation of environmental and urban regulations in Nusantara
 ]
+
 .pull-right[
 <img src="images/stakeholders_1.png" width="120%">
 ]
-
 ]
 
 
 .panel[.panel-name[Community]
 .pull-left[
-* <span style="font-size: 80%;">Active input during fieldwork regarding social practices </span>
+* Active input during fieldwork regarding social practices
 
-* <span style="font-size: 80%;">Validation of epidemiological and environmental data through fieldwork</span>
+* Validation of epidemiological and environmental data through fieldwork
 
-* <span style="font-size: 80%;">Implementation of disease monitoring and control strategies at the local level including </span>
+* Implementation of disease monitoring and control strategies at the local level including
 
-* <span style="font-size: 80%;">Capacity building and training for healthcare professionals and policymakers</span>
+* Capacity building and training for healthcare professionals and policymakers
 
-* <span style="font-size: 80%;">Exchange of results and research</span>
+* Exchange of results and research
 ]
 .pull-right[
 <img src="images/stakeholders_3.png" width="120%">
@@ -574,13 +574,13 @@ background-size: cover
 
 .panel[.panel-name[Intermediary stakeholders]
 .pull-left[
-* <span style="font-size: 80%;">Establishing international standards and guidelines for malaria monitoring</span>
+* Establishing international standards and guidelines for malaria monitoring
 
-* <span style="font-size: 80%;">Providing technical assistance and future funding</span>
+* Providing technical assistance and future funding
 
-* <span style="font-size: 80%;">Supporting research, advocacy, and awareness campaigns</span>
+* Supporting research, advocacy, and awareness campaigns
 
-* <span style="font-size: 80%;">Development of monitoring tools</span>
+* Development of monitoring tools
 ]
 .pull-right[
 <img src="images/stakeholders_2.png" width="120%">
@@ -597,26 +597,28 @@ background-repeat: no-repeat
 
 ##Phases of the project
 ---
+class: medium-text
+
 ##Phases of the project
 
 .panelset[
 .panel[.panel-name[Research]
 .pull-left[
-* <span style="font-size: 80%;">Stakeholder mapping and initial workshops with them </span>
+* Stakeholder mapping and initial workshops with them
 
-* <span style="font-size: 80%;">Collection of environmental and health data</span>
+* Collection of environmental and health data
 
-* <span style="font-size: 80%;">Initial fieldwork to recognize areas of intervention</span>
+* Initial fieldwork to recognize areas of intervention
 
-* <span style="font-size: 80%;">Identification of relevant literature and researchers</span>
+* Identification of relevant literature and researchers
 
-* <span style="font-size: 80%;">Identify key malaria risk factors to include in the model</span>
+* Identify key malaria risk factors to include in the model
 ]
 .pull-right[
 
 **Key Deliverables**
 <div class="custom-line"></div>
-* <span style="font-size: 80%;">Report on malaria risk factors</span> <br><br>
+* Report on malaria risk factors <br><br>
 <img src="images/quotes.png" width="120%">
 
 ]
@@ -624,22 +626,22 @@ background-repeat: no-repeat
 
 .panel[.panel-name[Development]
 .pull-left[
-* <span style="font-size: 80%;"> Data processing and analysis</span>
+* Data processing and analysis
 
-* <span style="font-size: 80%;"> Implementation of sensors in the area to validate remote sensed information</span>
+* Implementation of sensors in the area to validate remote sensed information
 
-* <span style="font-size: 80%;"> Prototyping of remote sensing tool</span>
+* Prototyping of remote sensing tool
 
-* <span style="font-size: 80%;"> Adjust prototype with users feedback</span>
-* <span style="font-size: 80%;"> Calibration of tool using field data</span>
+* Adjust prototype with users feedback
+* Calibration of tool using field data
 
 ]
 .pull-right[
 
 **Key Deliverables**
 <div class="custom-line"></div>
-* <span style="font-size: 80%;">Prototype of the EO monitoring tool</span>
-* <span style="font-size: 80%;">Implementation of sensors</span>
+* Prototype of the EO monitoring tool
+* Implementation of sensors
 <br><br>
 <img src="images/development.png" width="120%">
 
@@ -649,21 +651,21 @@ background-repeat: no-repeat
 
 .panel[.panel-name[Integration]
 .pull-left[
-* <span style="font-size: 80%;">Pilot testing in predicted high-risk areas</span>
+* Pilot testing in predicted high-risk areas
 
-* <span style="font-size: 80%;">Training workshops for government and health agencies</span>
+* Training workshops for government and health agencies
 
-* <span style="font-size: 80%;">Integration into national disease monitoring platforms</span>
+* Integration into national disease monitoring platforms
 
-* <span style="font-size: 80%;">Long term strategies for future manteinance </span>
-* <span style="font-size: 80%;">Final project evaluation and recommendations </span>
+* Long term strategies for future manteinance 
+* Final project evaluation and recommendations 
 
 ]
 .pull-right[
 **Key Deliverables**
 <div class="custom-line"></div>
-* <span style="font-size: 80%;">Training workshops</span>
-* <span style="font-size: 80%;">Final report and recommendations</span>
+* Training workshops
+* Final report and recommendations
 <br><br>
 <img src="images/report.jpg" width="120%">
 <span style="font-size: 10px;"> [Source: Navig8](https://www.navig8.co.uk/annual-report-design)</span>
@@ -671,19 +673,19 @@ background-repeat: no-repeat
 ]
 .panel[.panel-name[Maintenance & Update]
 .pull-left[
-* <span style="font-size: 80%;">Check for overall flaws and errors of the application</span>
+* Check for overall flaws and errors of the application
 
-* <span style="font-size: 80%;">Revision and maintenance of sensors </span>
+* Revision and maintenance of sensors
 
-* <span style="font-size: 80%;">Identify required changes depending on the changes in the city</span>
+* Identify required changes depending on the changes in the city
 
-* <span style="font-size: 80%;">Main update at the beginning of each Nusantara’s project phases</span>
+* Main update at the beginning of each Nusantara’s project phases
 ]
 .pull-right[
 
 **Key Deliverables**
 <div class="custom-line"></div>
-* <span style="font-size: 80%;">Main update in each key phase</span>
+* Main update in each key phase
 <br><br>
 <img src="images/five_stages.png" width="120%">
 <span style="font-size: 10px;"> [Source: 2023 Achievement Report- Nusantara Capital Authority](https://www.ikn.go.id/storage/pedoman-nusantara/4/nca_achievement_2023.pdf)</span>
@@ -727,8 +729,9 @@ background-repeat: no-repeat
 ]
 ---
 
-###SWOT Analysis: Proposed Malaria Risk Framework for Nusantara
-![](images/SWOT.png)
+##SWOT Analysis
+**Proposed Malaria Risk Framework for Nusantara:** <br><br>
+<br>![](images/SWOT.png)
 ---
 
 class: center, middle, inverse
