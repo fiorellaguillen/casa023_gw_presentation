@@ -246,6 +246,9 @@ background-size: cover
 <div style="text-align: center;">
   <img src="images/Layout_Vector.png" width="40%">
 </div>
+<div style="text-align: center;font-size: 12px">
+Preview of vector dataset
+</div>
 
 ---
 
