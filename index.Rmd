@@ -15,6 +15,14 @@ output:
       countIncrementalSlides: true
 ---
 
+<style>
+  .custom-line {
+    border: 1px solid black; 
+    margin-top: 1px;          
+    margin-bottom: 1px;   
+  }
+</style>
+
 ```{r xaringan-panelset, echo=FALSE}
 xaringanExtra::use_panelset() 
 ```
@@ -193,6 +201,14 @@ By 2027, eliminate malaria incidents with scenario:
 ]
 
 ]
+---
+
+class: center, middle, inverse
+background-image: url("images/aereal_photo.jpg")
+background-size: cover
+
+#<span style="font-size: 50px;">Our proposal</span>
+
 
 ---
 ## Framework
@@ -269,7 +285,7 @@ $$
 ## Sample Maps Preview
 
 <div style="text-align: center;">
-  <img src="images/Layout_Map.png" width="95%">
+  <img src="images/maps.png" width="75%">
 </div>
 
 ---
@@ -428,6 +444,7 @@ background-size: cover
 
 ]
 
+
 .panel[.panel-name[Community]
 .pull-left[
 * <span style="font-size: 80%;">Active input during fieldwork regarding social practices </span>
@@ -463,8 +480,108 @@ background-size: cover
 ]
 
 ---
-##Project areas
-<img src="images/activities.png" width="120%">
+background-image: url("images/phases.png")
+background-size: contain
+background-position: center 120px
+background-repeat: no-repeat
+
+##Phases of the project
+---
+##Phases of the project
+
+.panelset[
+.panel[.panel-name[Research]
+.pull-left[
+* <span style="font-size: 80%;">Stakeholder mapping and initial workshops with them </span>
+
+* <span style="font-size: 80%;">Collection of environmental and health data</span>
+
+* <span style="font-size: 80%;">Initial fieldwork to recognize areas of intervention</span>
+
+* <span style="font-size: 80%;">Identification of relevant literature and researchers</span>
+
+* <span style="font-size: 80%;">Identify key malaria risk factors to include in the model</span>
+]
+.pull-right[
+
+**Key Deliverables**
+<div class="custom-line"></div>
+* <span style="font-size: 80%;">Report on malaria risk factors</span> <br><br>
+<img src="images/quotes.png" width="120%">
+
+]
+]
+
+.panel[.panel-name[Development]
+.pull-left[
+* <span style="font-size: 80%;"> Data processing and analysis</span>
+
+* <span style="font-size: 80%;"> Implementation of sensors in the area to validate remote sensed information</span>
+
+* <span style="font-size: 80%;"> Prototyping of remote sensing tool</span>
+
+* <span style="font-size: 80%;"> Adjust prototype with users feedback</span>
+* <span style="font-size: 80%;"> Calibration of tool using field data</span>
+
+]
+.pull-right[
+
+**Key Deliverables**
+<div class="custom-line"></div>
+* <span style="font-size: 80%;">Prototype of the EO monitoring tool</span>
+* <span style="font-size: 80%;">Implementation of sensors</span>
+<br><br>
+<img src="images/development.png" width="120%">
+
+
+]
+]
+
+.panel[.panel-name[Integration]
+.pull-left[
+* <span style="font-size: 80%;">Pilot testing in predicted high-risk areas</span>
+
+* <span style="font-size: 80%;">Training workshops for government and health agencies</span>
+
+* <span style="font-size: 80%;">Integration into national disease monitoring platforms</span>
+
+* <span style="font-size: 80%;">Long term strategies for future manteinance </span>
+* <span style="font-size: 80%;">Final project evaluation and recommendations </span>
+
+]
+.pull-right[
+**Key Deliverables**
+<div class="custom-line"></div>
+* <span style="font-size: 80%;">Training workshops</span>
+* <span style="font-size: 80%;">Final report and recommendations</span>
+<br><br>
+<img src="images/report.jpg" width="120%">
+<span style="font-size: 10px;"> [Source: Navig8](https://www.navig8.co.uk/annual-report-design)</span>
+]
+]
+.panel[.panel-name[Maintenance & Update]
+.pull-left[
+* <span style="font-size: 80%;">Check for overall flaws and errors of the application</span>
+
+* <span style="font-size: 80%;">Revision and maintenance of sensors </span>
+
+* <span style="font-size: 80%;">Identify required changes depending on the changes in the city</span>
+
+* <span style="font-size: 80%;">Main update at the beginning of each Nusantara’s project phases</span>
+]
+.pull-right[
+
+**Key Deliverables**
+<div class="custom-line"></div>
+* <span style="font-size: 80%;">Main update in each key phase</span>
+<br><br>
+<img src="images/five_stages.png" width="120%">
+<span style="font-size: 10px;"> [Source: 2023 Achievement Report- Nusantara Capital Authority](https://www.ikn.go.id/storage/pedoman-nusantara/4/nca_achievement_2023.pdf)</span>
+
+]
+]
+
+]
 ---
 ##Timeline
 <img src="images/timeline.png" width="120%">
@@ -518,6 +635,8 @@ background-size: cover
 <p>Fornace, K. M., Diaz, A. V., Lines, J., & Drakeley, C. J. (2021). Achieving global malaria eradication in changing landscapes. Malaria Journal, 20(1), 69–14. https://doi.org/10.1186/s12936-021-03599-0</p>
 
 <p> Global Forest Watch. (2023). Forest Change. Available from: https://www.globalforestwatch.org/dashboards/country/IDN/15/?category=forest-change </p>
+
+<p>Indonesian National Capital Authority (2023). 2023 Achievement Report- Nusantara Capital Authority. Available at: https://www.ikn.go.id/storage/pedoman-nusantara/4/nca_achievement_2023.pdf</p>
 
 <p>Johansen, I. C., Moran, E. F., & Ferreira, M. U. (2023). The impact of hydropower dam construction on malaria incidence: Space-time analysis in the Brazilian Amazon. PLOS Global Public Health, 3(3), e0001683–e0001683. https://doi.org/10.1371/journal.pgph.0001683</p>
 

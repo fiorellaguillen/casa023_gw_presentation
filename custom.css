@@ -69,4 +69,10 @@
 	max-width: 700px;
 }
 
-
+<style>
+  .custom-line {
+    border: 1px solid black; 
+    margin-top: 1px;          
+    margin-bottom: 1px;   
+  }
+</style>
