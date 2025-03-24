@@ -41,53 +41,101 @@ style_mono_accent(  #we can change it to anything you prefer
 )
 ```
 
-<!-- I suggest we change the title to something more specif, what do you think of this? Malaria’s Shadow Over Nusantara: Safeguarding the New Capital's Development with Earth Observation what do you think of this title? -->
 
 ## Malaria: A Persistent Global Challenge
 
 Malaria remains one of the world’s most severe public health threats, affecting millions annually.
 
 
+According to the **WHO’s World Malaria Report 2024:**
+
+
 .pull-left[
 
 
-According to the **WHO’s World Malaria Report 2024:**
 <div style="text-align: justify; font-size: 16px">
+Globally:
 - **263 million** estimated cases worldwide in 2023, up by 11 million in 2022.
-
-- Indonesia has the **2nd highest** malaria cases in East Asia Region.
 
 - The disease's global impact is worsened by factors like **climate change, population movement, and health service disruptions**.
 
+Country- Level:
+
+- Indonesia has the **2nd highest** malaria cases in East Asia Region.
+
 ]
 </div>
+
+.pull-right[
+
+<img src="images/Malaria_sata_WHO.png"/>
+<figcaption style="text-align: center; font-size: 12px;">
+ 
+Source: WHO, 2024
+</figcaption>
+<p><strong> East Asia malaria cases distribution</strong></p>
+
+
+]
+
 --
+
+<div style="text-align: left; padding-left: 30px">
+<h3>Why are we focusing on Indonesia?  </h3> 
+</div>
+---
+## Malaria: A Persistent Global Challenge
+
+Malaria remains one of the world’s most severe public health threats, affecting millions annually.
+
+
+<div style="text-align: center;">
+<h3>Indonesia is building a $35 billion new capital  </h3> 
+</div>
+
+.pull-left[
+
+<br>
+
+<div style="text-align: justify; font-size: 16px">
+
+The capital will be moved from Jakarta to **Nusantara**, a city currently being built in a **forested area** of East Kalimantan province.
+
+
+While East Kalimantan currently reports moderate malaria cases, the extensive development could lead to a significant rise in risk.
+
+
+
+]
+</div>
+
+
 .pull-right[
 <!-- original source: https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iSKQdPOewivM/v1/-999x-999.gif -->
-<div style="text-align: center;">
-<strong> Indonesia is building a $35 billion new capital </strong> 
-</div>
-<br>
+
 <img src="images/change.gif"/>
 <figcaption style="text-align: center; font-size: 12px;">
  <a href="https://www.bloomberg.com/news/features/2022-12-05/indonesia-s-new-rainforest-city-president-jokowi-s-nusantara-plans-face-trouble?embedded-checkout=true
 ">Source: Bloomberg UK</a>
 </figcaption>
 ]
+<div style="text-align: center; padding-top: 12px; padding-left: 30px">
+A 2020 assessment by the National Planning and Development Agency emphasized that <strong> malaria risk</strong> was <strong>not considered</strong> in the development planning (2023)
+</div>
 
 ---
 
-
 ## Background Research and Framing
 
-<div style="font-size: 12px; line-height: 1.5; text-align: justify">
+
+<div style="font-size: 12px; padding-top: 20px; line-height: 1.5; text-align: justify">
     <div class="pull-left">
         <div style="font-size: 20px; font-weight: bold"><strong>Environmental Context</strong></div>
         <hr />
         <ul>
             <li>Nusantara’s construction clears rainforests and wetlands, <strong>creating mosquito breeding sites</strong>.</li>
             <li>Deforestation increases malaria risk by altering habitats (Bauhoff & Busch, 2020; Fornace et al., 2021).</li>
-            <li>East Kalimantan, the province of the new capital, <strong>lost 20% tree cover</strong> between 2001 and 2022 (Global Forest Watch, 2023).</li>
+            <li>East Kalimantan, <strong>lost 20% tree cover</strong> between 2001 and 2022 (Global Forest Watch, 2023).</li>
         </ul>
     </div>
     <div class="pull-right">
