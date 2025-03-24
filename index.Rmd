@@ -340,102 +340,69 @@ $$
 2. Integration with Central Bureau of Statistics Indonesia to get population data per pixel.
 
 ---
+## Current system for malaria elimination
 
-
-
-### Short, Medium, and Long Term Integration
 
 .pull-left[
 
-   <div style="font-size: 20px; font-weight: bold"><strong>Short-Term (1 year)</strong></div>
-        <hr />
-        <div style="  font-size: 16px; text-align: justify">
-      <ul>
-            <li> The Risk Index can be used to prioritize immediate vector control measures in high-risk zones (e.g.,spraying mosquito-heavy areas, distributing insecticide-treated nets).
-            </li>
-             <br>
-            <li>Set up temporary health posts in worker camps.</li>
-        
-</ul>
-    </div>
-        </div>
+#### overview of current approach
 
-]
-.pull-right[
-
-   <div style="font-size: 20px; font-weight: bold"><strong>Medium-Term (2-5 years)</strong></div>
-        <hr />
-          <div style="  font-size: 16px; line-height: 1; text-align: justify">
-
-        <ul>
-  <li> Incorporate malaria risk insights with city planning, aligning with Indonesia’s Spatial Planning Act, that  emphasizes integrating sectoral plans (e.g., health) with spatial strategies <a href="https://www.mlit.go.jp/kokudokeikaku/international/spw/general/indonesia/index_e.html">Source</a>.</li>
-   <ul> <li>Land Use Planning.</li>
-    <li>Infrastructure Design.</li>
-    <li>Health Facility Placement.</li>
-      </ul> 
-      <br>
-       <li>Link malaria risk maps to current tools like SISMAL, adding spatial depth that enhances tracking and outbreak control  </li>
-      </ul>
-          </div>
-    </div>
-]
-  <div style=" padding: 10px; font-size: 16px; text-align: justify">
-        <div style="font-size: 20px; font-weight: bold"><strong>Long-Term</strong></div>
-        <hr />
-        <ul>
-            <li>Embed malaria risk into Nusantara’s master plan for sustainable urban development to ensuret that future expansions are <strong>malaria-resilient. </strong>.</li>
-            <li> what can we add? further integration? live monotoring...</li>
-        </ul>
-    </div>
-
-</div>
----
-
-## Integration of dashboard in the system
-
-.pull-left[
-
-SISMAL (Sistem Informasi Malaria) is the, currently system for monitoring malaria in Indonesia.
-
-.panelset[
-.panel[.panel-name[Current Monitoring systems]
-* It is a web-based system that allows for real-time data entry and reporting.
-* It is used by health facilities to report malaria cases.
-* 1-2-5 Strategy: Case reported on Day 1, investigated on Day 2, intervention by Day 5.
-]
-
-.panel[.panel-name[Challenges & Limitations]
-* Incomplete reporting
-* Poor internet connectivity in remote areas
-* Limited training on using the system.
-]
-]
-]
-
-.pull-right[
-![Nusantara](images/nusantara.png)
-
+![Malaria approach](images/Current Malaria Approach.png)
 <br/>
 
-![Malaria Case Reporting Flowchart of Lahat](images/reporting_flowchart.png)
-]
----
+<div style="font-size: 17px;">
+At the core, the malaria elimination program revolves around data obtained from malaria case incidences reported through SISMAL. 
 
+]
+</div>
+
+.pull-right[
+
+#### Limitations of  current approach
+
+<div style="font-size: 18px;">
+
+- Heavily replies on quantitative malaria case data which influences the other factors.
+- Limited attention to the spatial and socio-economic dimensions.
+- It primarily operates within the health sector, missing opportunities for broader cross-sectoral insights such as urban planning.
+<br/>
+
+![SISMAL Platform](images/SISMAL.png)
+<div style="font-size: 10px;">
+Source:Nuraini et al., 2021 
+]
+
+
+---
 ## Integration of dashboard in the system
 
+.pull-left[
 
-.panelset[
-.panel[.panel-name[Short Term]
-![Dashboard Integration Flowchart](images/Short term integration.png)
+#### overview of proposed approach
+
+<div style="font-size: 16px;">
+
+![Malaria proposed approach](images/Proposed model.png)
+<br/>
+
+A malaria elimination program that integrates real-time case data from SISMAL with spatial mapping via a unified dashboard.
+
+Display key indicators (API, ABER, PR) and with dynamic visualization optimize allocation of resources and targeted interventions, reinforcing the 1‑2‑5 response strategy.
+
 ]
+</div>
 
-.panel[.panel-name[Long Term]
-![Dashboard Integration Flowchart](images/Long term integration.png)
+.pull-right[
+
+#### Benefits of  proposed approach
+
+<div style="font-size: 16px;">
+
+- Increase scope of surveillance: case data, spatial data and socio-economic factors
+- Overall strategy will be bridging  the e health sector with relating sector to enhance the elimination process.
+- Can be integrated into development of policies for make Nusantara more resistant to malaria outbreaks. 
+- This aligns the health service policy to increase surveillance
 ]
-
-
-]
-
 ---
 
 ##Sample Dashboard
