@@ -7,22 +7,22 @@
   
  
   .title-slide h1 {  
-    font-size: 50px;  /* Change title size */
+    font-size: 40px;  /* Change title size */
     line-height: 10px; /* Spacing */
   }
   
   .title-slide h2 {  
-    font-size: 30px;  /* Change subtitle size */
+    font-size: 25px;  /* Change subtitle size */
     line-height: 30px;  
   }
   
   .title-slide h3 {  
-    font-size: 25px;  /* Change author size */
+    font-size: 20px;  /* Change author size */
     line-height: 20px;  
   }
   
   .title-slide p {  
-    font-size: 20px;  /* Change date size */
+    font-size: 15px;  /* Change date size */
     line-height: 10px;  
   }
   

@@ -1,5 +1,7 @@
 ---
-title: "Malaria’s Shadow Over Nusantara:"
+title: "<div style='text-align: center; position: relative; top: -80px;'>
+           <img src='images/logo.png' style='width:13%;'>
+         <br><br><br><br><br><br><br> Malaria’s Shadow Over Nusantara:"
 subtitle: "Safeguarding the New Capital's Development with Earth Observation"
 author: "<br><br><br><br>Group: Tropical Threat"
 date: "`r Sys.Date()`"
@@ -8,7 +10,7 @@ output:
     lib_dir: libs
     css:  ["xaringan-themer.css", "custom.css"]
     includes:
-      after_body: insert-logo.html
+      after_body: "insert-logo.html"
       in_header: "browser-logo.html" 
     nature:
       highlightStyle: github
@@ -122,7 +124,7 @@ According to the **WHO’s World Malaria Report 2024:**
 ---
 .pull-center[
 <div style="text-align: center;">
-
+<br><br>
 <div style="text-align: center;font-size: 30px">
 <strong>Nusantara: A New Capital City in the Forest</strong>
 </div>
