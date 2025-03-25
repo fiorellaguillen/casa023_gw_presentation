@@ -371,6 +371,12 @@ $$
 <div style="text-align: center;">
   <img src="images/maps.png" width="75%">
 </div>
+<div style="text-align: center;font-size: 12px">
+Sample result of Susceptibility Index, Vulnerability Index, Capacity Index, and Malaria Risk Index
+</div>
+<div style="text-align: center;font-size: 12px">
+*Map credit: Jasmine Mahdani previous analysis
+</div>
 
 ---
 class: medium-text
